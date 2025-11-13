@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SmileCare Dental Studio - Book Appointment</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background:#f5f7fa;color:#222;}
+header{background:#0077b6;color:#fff;padding:40px 20px;text-align:center;}
+header h1{margin:0;font-size:32px;}
+header p{margin-top:10px;font-size:18px;}
+.container{max-width:900px;margin:auto;padding:40px 24px;}
+section{margin-bottom:40px;}
+h2{text-align:center;color:#0077b6;margin-bottom:20px;}
+form input, form select, form button{width:100%;padding:12px;margin-bottom:12px;border-radius:6px;border:1px solid #ccc;}
+form button{background:#0077b6;color:#fff;border:none;cursor:pointer;font-weight:bold;}
+form button:hover{background:#005f8d;}
+footer{text-align:center;padding:20px;color:#666;font-size:14px;}
+</style>
+</head>
+<body>
+<header>
+<h1>SmileCare Dental Studio</h1>
+<p>Your healthy, confident smile starts here.</p>
+</header>
+
+<div class="container">
+<section>
+<h2>Book Your Appointment</h2>
+<form action="/book" method="POST">
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <input type="tel" name="phone" placeholder="Phone Number" required>
+  <label for="date">Preferred Date</label>
+  <input type="date" name="date" required>
+  <label for="time">Preferred Time</label>
+  <select name="time" required>
+    <option value="10:00:00 AM">10:00 AM</option>
+    <option value="12:00:00 PM">12:00 PM</option>
+    <option value="2:00:00 PM">2:00 PM</option>
+    <option value="4:00:00 PM">4:00 PM</option>
+  </select>
+  <button type="submit">Confirm Booking</button>
+</form>
+</section>
+</div>
+
+<footer>
+<p>📞 9081282795 | 📧 manavunstop27@gmail.com</p>
+<p>© 2025 SmileCare Dental Studio</p>
+</footer>
+</body>
+</html>
