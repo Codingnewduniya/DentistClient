@@ -5,7 +5,7 @@ A frontend client interface for a dentist application.
 This project provides the user interface for interacting with the Dentist application — enabling patients to view services, request appointments, and interact with the system.
 
 
-## 📌 Features
+## Features
 
 - Responsive user interface for a dental services app.
 - Built using **JavaScript**, **HTML**, and modern web practices.
@@ -19,7 +19,7 @@ _(Add features below as per your actual implementation.)_
 - View dentist schedules
 - Service list
 
-## 🧠 Tech Stack
+## Tech Stack
 
 | Component      | Technology |
 |----------------|------------|
@@ -29,18 +29,18 @@ _(Add features below as per your actual implementation.)_
 
 _(Add exact frameworks, libraries used, e.g., React, Vue, Tailwind, if applicable.)_
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to run the project locally:
 
-### 1️⃣ Clone the repository
+###  Clone the repository
 
 ```sh
 git clone https://github.com/Codingnewduniya/DentistClient.git
 cd DentistClient
 ````
 
-### 2️⃣ Install dependencies
+### Install dependencies
 
 Install required packages using npm:
 
@@ -48,7 +48,7 @@ Install required packages using npm:
 npm install
 ```
 
-### 3️⃣ Start the server
+###  Start the server
 
 ```sh
 npm start
@@ -60,7 +60,7 @@ Or if you have a custom start script:
 node server.js
 ```
 
-### 4️⃣ Open in browser
+###  Open in browser
 
 Once the server is running, open your browser and go to:
 
@@ -70,7 +70,7 @@ http://localhost:3000
 
 *(Update the port based on your server configuration.)*
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DentistClient/
@@ -84,7 +84,7 @@ DentistClient/
 
 *(Adjust to reflect actual folders & files.)*
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 To contribute:
@@ -94,14 +94,4 @@ To contribute:
 3. Commit and push (`git commit -m 'feat: Add YourFeature'`)
 4. Open a Pull Request
 
-## 📝 License
 
-This project is open source and available under the **[MIT License](LICENSE)**.
-*(If a license is present — otherwise state the actual license or remove this section.)*
-
-## 🧾 Acknowledgements
-
-Thanks to anyone who contributed, forked, starred, or tested this repo.
----
-
-If you want a **more detailed version** (with screenshots, API docs, usage tips, CI/CD badges, etc.), just send me a bit more context about the project’s functionality!
